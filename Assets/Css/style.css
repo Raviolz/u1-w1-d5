@@ -14,7 +14,7 @@
 }
 
 header {
-  height: 12vh;
+  height: 14vh;
   box-sizing: content-box;
 
   background-color: black;
@@ -49,10 +49,16 @@ header img {
   height: 13%;
   background-color: #f04c2f;
   color: white;
+
   font-weight: bold;
   font-size: 100%;
   border-radius: 5px;
   border-style: none;
+}
+
+.banner a:link {
+  color: white;
+  text-decoration: none;
 }
 
 body {
@@ -173,7 +179,7 @@ a:link {
 }
 
 a:visited {
-  color: #e22d0e;
+  color: #cbe8e9;
 }
 
 .findus {
