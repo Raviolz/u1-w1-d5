@@ -4,7 +4,7 @@
   height: 28rem;
   background-position: center;
   padding: 2vh;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   background-size: contain;
   padding: 0;
@@ -31,7 +31,7 @@ header img {
   line-height: 1;
   color: #25a2c3;
   font-weight: bold;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   margin-bottom: 1.8rem;
   margin-top: 0rem;
   padding-top: 4rem;
@@ -136,7 +136,7 @@ h3 {
   box-sizing: content-box;
   border: 1px solid #dee1e3;
   margin-bottom: 2rem;
-  border-radius: 2;
+  border-radius: 2%;
   color: grey;
 }
 
