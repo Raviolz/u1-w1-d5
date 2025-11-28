@@ -54,3 +54,63 @@ body {
   font-family: "Open Sans", sans-serif;
   width: 100%;
 }
+
+.firstpart,
+.secondpart {
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 4rem;
+  line-height: 1.65rem;
+}
+h3 {
+  color: #25a2c3;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1.6rem;
+}
+
+.firstpart p {
+  color: grey;
+  font-size: 1.3rem;
+  margin-top: 1.6rem;
+}
+
+.image1 img {
+  height: 18rem;
+
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+.experience {
+  background-color: #e22d0e;
+  height: 18rem;
+  text-align: center;
+  color: white;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+
+.experience h3 {
+  font-size: 2.2rem;
+  padding-top: 4rem;
+
+  color: white;
+}
+
+.experience section {
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 2.5rem;
+}
+
+.experience div {
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.experience p {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
