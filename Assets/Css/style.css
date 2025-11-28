@@ -1,17 +1,21 @@
 .banner {
   background-image: url(../Imgs/banner.jpg);
   width: 100%;
-  height: 25rem;
+  height: 28rem;
   background-position: center;
   padding: 2vh;
   font-family: "Poppins", sans-serif;
   text-align: center;
   background-size: contain;
   padding: 0;
+  box-sizing: content-box;
+  background-size: 42em;
+  color: #444444;
 }
 
 header {
   height: 12vh;
+  box-sizing: content-box;
 
   background-color: black;
 }
@@ -24,13 +28,13 @@ header img {
 }
 
 .banner h1 {
-  line-height: 0.8;
+  line-height: 1;
   color: #25a2c3;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   margin-bottom: 1.8rem;
   margin-top: 0rem;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 .banner p {
   font-size: 1.4rem;
@@ -71,14 +75,15 @@ body {
 h3 {
   color: #25a2c3;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: bolder;
+
   margin-top: 1.6rem;
 }
 
 .firstpart p {
-  color: grey;
+  color: #5c5c5c;
   font-size: 1.3rem;
-  margin-top: 1.1rem;
+  margin-top: 1rem;
   line-height: 1.65;
 }
 
@@ -93,7 +98,7 @@ h3 {
   background-color: #e22d0e;
   height: 20rem;
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.805);
   padding-left: 1.8rem;
   padding-right: 1.8rem;
 }
@@ -120,6 +125,7 @@ h3 {
 .experience p {
   margin-top: 1rem;
   font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.805);
 }
 
 .cards h3 {
@@ -130,7 +136,7 @@ h3 {
   box-sizing: content-box;
   border: 1px solid #dee1e3;
   margin-bottom: 2rem;
-
+  border-radius: 2;
   color: grey;
 }
 
@@ -163,7 +169,7 @@ h4 {
 }
 
 a:link {
-  color: white;
+  color: #cbe8e9;
 }
 
 a:visited {
@@ -173,15 +179,24 @@ a:visited {
 .findus {
   margin-top: 1.5rem;
   line-height: 1.65;
-
+  color: #cbe8e9;
   margin-bottom: 1.5rem;
 }
 
 .copyright {
-  font-size: 0.8rem;
-  border-top: solid white 1px;
+  font-size: 0.9rem;
+  color: #cbe8e9;
+  border-top: solid #cbe8e9 1px;
   margin-left: 6rem;
   margin-right: 6rem;
-  margin-top: 1.5rem;
-  padding-top: 2rem;
+  margin-top: 2rem;
+  padding-top: 2.6rem;
+}
+
+#arrow {
+  margin-right: 0.3em;
+}
+
+i {
+  color: white;
 }
